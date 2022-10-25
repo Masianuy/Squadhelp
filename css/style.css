@@ -1,5 +1,13 @@
 :root {
-  --dark: #000000;
+  --dark-blue: #0f2e60;
+  --blue: #377dff;
+  --bright-blue: #00dffc;
+  --light-grey: #e5e7eb;
+  --light-grey-2: #fbfcfe;
+  --dark-grey: #77838f;
+  --border-grey: #ebebeb;
+  --black: #1e2022;
+  --darkest-grey: #4a4a4a;
 }
 
 * {
