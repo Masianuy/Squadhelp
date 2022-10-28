@@ -158,7 +158,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 1 rem;
+  margin: 0 1rem;
 }
 .top_search {
   flex: 1 1 0%;
@@ -378,9 +378,14 @@ nav {
   font-size: 1.8rem;
   font-weight: 500;
   transition: all 0.2s ease-in-out;
+  display: flex;
 }
 .naming_btn:hover {
   box-shadow: 0 4px 11px rgba(55,125,255,.35);
+}
+.naming_btn svg {
+  scale: .7;
+  margin-right: 5px;
 }
 .naming_right {
   flex: 0 2 40%;
@@ -491,6 +496,92 @@ nav {
 .contests_item div > p {
   text-align: left;
   margin-left: 25px;
+}
+
+/* FAQ */
+.faq_wrap {
+  display: flex;
+  gap: 30px;
+}
+.faq_left {
+  flex: 0 0 25%;
+}
+.faq_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--blue);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.faq_list li a {
+  color: var(--border-grey);
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 10px;
+}
+.faq_list li a:hover {
+  color: var(--white);
+}
+.faq_right {
+  flex: 0 0 75%;
+}
+.faq_right h3 {
+  color: var(--blue);
+  font-weight: 500;
+}
+.faq_block {
+  margin-bottom: 15px;
+}
+.faq_question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px 4px 0 0;
+  border: 1px solid var(--border-grey);
+  padding: 15px;
+  transition: all 1s;
+}
+.faq_question h6 {
+  font-weight: 400;
+}
+.faq_question svg {
+  display: flex;
+  flex-shrink: 0;
+  scale: 0.5;
+}
+.faq_question:hover h6 {
+  color: var(--blue);
+}
+.faq_question:hover {
+  cursor: pointer;
+  background-color: #f8fafd;
+}
+.faq_block.active svg {
+  transform: rotate(90deg);
+}
+.faq_answer {
+  display: none;
+  padding: 15px;
+  border-radius: 0 0 4px 4px;
+  border: 1px solid var(--border-grey);
+  color: var(--black);
+  border-top: none;
+}
+.faq_block.active .faq_answer {
+  display: block;
+}
+.faq_answer a {
+  color: var(--blue);
+}
+.faq_answer a:hover {
+  color: var(--dark-blue);
+}
+.faq_answer ol li {
+  list-style-type: disc;
+}
+.faq_answer ol {
+  padding-left: 30px;
 }
 
 /* READY */
@@ -846,14 +937,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1280px) {
   .top_search {
     margin: 0 7rem;
@@ -902,6 +985,12 @@ footer {
   }
   .footer_info div {
     margin-bottom: 15px;
+  }
+  .faq_wrap {
+    flex-direction: column;
+  }
+  .faq_right > div {
+    margin-bottom: 35px;
   }
 }
 @media screen and (max-width: 768px) {
