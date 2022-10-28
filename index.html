@@ -7,51 +7,1025 @@
   <title>Squadhelp</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <header>
+    <div class="header_top">
+      <div class="top-container">
+        <div class="top_logo">
+          <img src="./images/logo_white.svg" alt="logo">
+        </div>
+        <div class="top_search">
+          <input type="text" placeholder="Search over 100,000 names">
+          <button>
+            <svg width="24px" height="24px" stroke="#cccccc">
+              <use href="#search"/>
+            </svg>
+          </button>
+        </div>
+        <div class="nav_top">
+          <ul class="top_menu">
+            <li class="top_menu-item">
+              <svg width="14px" height="14px" fill="#cccccc">
+                <use href="#user"/>
+              </svg>
+              <a href="#">Account</a>
+              <ul class="top_submenu">
+                <li class="top_submenu-item">
+                  <a href="#">Login</a>
+                </li>
+                <li class="top_submenu-item">
+                  <a href="#">Signup</a>
+                </li>
+              </ul>
+            </li>
+            <li class="top_menu-item">
+              <svg width="14px" height="14px" fill="#cccccc">
+                <use href="#phone"/>
+              </svg>
+              <a href="#">Contact</a>
+              <ul class="top_submenu">
+                <li class="top_submenu-item">
+                  <svg width="20px" height="20px" fill="#cccccc">
+                    <use href="#phone"/>
+                  </svg>
+                  <a href="#">(877)355-3585</a>
+                </li>
+                <li class="top_submenu-item">
+                  <svg width="20px" height="20px" fill="#cccccc">
+                    <use href="#chat"/>
+                  </svg>
+                  <a href="#">Chat</a>
+                </li>
+                <li class="top_submenu-item">
+                  <svg width="20px" height="16px" fill="#cccccc">
+                    <use href="#email"/>
+                  </svg>
+                  <a href="#">Email</a>
+                </li>
+                <li class="top_submenu-item">
+                  <svg width="20px" height="20px" fill="#cccccc">
+                    <use href="#help"/>
+                  </svg>
+                  <a href="#">Help Desk</a>
+                </li>
+              </ul>
+            </li>
+            <li class="top_menu-item">
+              <svg width="14px" height="14px" fill="#cccccc">
+                <use href="#favorite"/>
+              </svg>
+              <a href="#">Favorites</a>
+            </li>
+          </ul>
+          <div class="top_btn">
+            <a href="#">Start Contest</a>
+          </div>
+          <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div id="mobile_menu"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <div class="header_bottom">
+        <nav>
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#">Names For Sale</a>
+              <svg width="10px" height="10px" fill="#cccccc">
+                <use href="#arrow"/>
+              </svg>
+              <ul class="nav_sublist">
+                <li class="nav_subitem">
+                  <a href="#">Popular Brandable Names</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Premium Domains For Sale</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Short Domains</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">3 Letter Domains</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">4 Letter Domains</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">5 Letter Domains</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">One Word Names</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Industry Domains</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Location Based Names</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Recommended For You</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Become A Seller</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav_item">
+              <a href="#">Naming Contests</a>
+              <svg width="10px" height="10px" fill="#cccccc">
+                <use href="#arrow"/>
+              </svg>
+              <ul class="nav_sublist">
+                <li class="nav_subitem">
+                  <a href="#">Start A Contest</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">How It Works</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Contest Pricing</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Agency Services</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Our Work</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Recent Winners</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Active Contests</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Become A Creative</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav_item">
+              <a href="#">Other Services</a>
+              <svg width="10px" height="10px" fill="#cccccc">
+                <use href="#arrow"/>
+              </svg>
+              <ul class="nav_sublist">
+                <li class="nav_subitem">
+                  <a href="#">Logos</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Taglines</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Audience Testing</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Trademark Research</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Trademark Filing</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Video Creation</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav_item">
+              <a href="#">Agency Experience</a>
+            </li>
+            <li class="nav_item">
+              <span></span>
+            </li>
+            <li class="nav_item">
+              <a href="#">Resources</a>
+              <svg width="10px" height="10px" fill="#cccccc">
+                <use href="#arrow"/>
+              </svg>
+              <ul class="nav_sublist">
+                <li class="nav_subitem">
+                  <a href="#">Business Name Generator</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">How to Naming Your Business</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Free Trademark Checker</a>
+                </li>
+                <li class="nav_subitem">
+                  <a href="#">Industry Name Ideas</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="naming">
+      <div class="container">
+        <div class="naming_wrap">
+          <div class="naming_left">
+            <p class="desc">World's #1 Naming Platform</p>
+            <h1>How Does Squadhelp Work?</h1>
+            <p class="naming_text">Squadhelp helps you come up with a great name for your business by combining the power of crowdsourcing with sophisticated technology and Agency-level validation services.</p>
+            <button class="btn naming_btn">Play Video</button>
+          </div>
+          <div class="naming_right">
+            <svg width="100%" height="437px">
+              <use href="#app-user"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="services_wrap">
+            <p class="desc">Our Services</p>
+            <h2>3 Ways To Use Squadhelp</h2>
+            <p>Squadhelp offers 3 ways to get you a perfect name for your business.</p>
+            <div class="services_block">
+              <div class="services_card">
+                <svg width="72px" height="72px">
+                  <use href="#launch_a_contest"/>
+                </svg>
+                <h4>Launch a Contest</h4>
+                <p>Work with hundreds of creative experts to get custom name suggestions for your business or brand. All names are auto-checked for URL availability.</p>
+                <button class="btn services_btn">Launch a Contest</button>
+              </div>
+              <div class="services_card">
+                <svg width="72px" height="72px">
+                  <use href="#explore_names"/>
+                </svg>
+                <h4>Explore Names For Sale</h4>
+                <p>Our branding team has curated thousands of pre-made names that you can purchase instantly. All names include a matching URL and a complimentary Logo Design</p>
+                <button class="btn services_btn">Explore Names For Sale</button>
+              </div>
+              <div class="services_card">
+                <svg width="72px" height="72px">
+                  <use href="#agency_level"/>
+                </svg>
+                <h4>Agency-level Managed Contests</h4>
+                <p>Our Managed contests combine the power of crowdsourcing with the rich experience of our branding consultants. Get a complete agency-level experience at a fraction of Agency costs</p>
+                <button class="btn services_btn">Learn More</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="contests">
+      <div class="container">
+        <div class="contests_wrap">
+          <svg width="71px" height="71px">
+            <use href="#cup"/>
+          </svg>
+          <h2>How Do Naming Contests Work?</h2>
+          <div class="contests_block">
+            <div class="contests_left">
+              <svg width="562px" height="643px">
+                <use href="#house-agency"/>
+              </svg>
+            </div>
+            <div class="contests_right">
+              <ul class="contests_list">
+                <li class="contests_item">
+                  <div>
+                    <span>1.</span>
+                    <p>Fill out your Naming Brief and begin receiving name ideas in minutes.</p>
+                  </div>
+                </li>
+                <li class="contests_item">
+                  <div>
+                    <span>2.</span>
+                    <p>Rate the submissions and provide feedback to creatives. Creatives submit even more names based on your feedback.</p>
+                  </div>
+                </li>
+                <li class="contests_item">
+                  <div>
+                    <span>3.</span>
+                    <p>Our team helps you test your favorite names with your target audience. We also assist with Trademark screening.</p>
+                  </div>
+                </li>
+                <li class="contests_item">
+                  <div>
+                    <span>4.</span>
+                    <p>Pick a Winner. The winner gets paid for their submission.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="ready">
+      <div class="figure_1">
+        <svg width="205px" height="151px">
+          <use href="#figure_1"/>
+        </svg>
+      </div>
+      <div class="figure_2">
+        <svg  width="208px" height="150px">
+          <use href="#figure_2"/>
+        </svg>
+      </div>
+      <div class="container">
+        <div class="ready_wrap">
+          <h2>Ready to get started?</h2>
+          <p>Fill out your contest brief and begin receiving custom name suggestions within minutes.</p>
+          <button class="btn ready_btn">Start A Contest</button>
+        </div>
+      </div>
+    </section>
+    
+    <section class="stats">
+      <div class="container">
+        <div class="stats_wrap">
+          <div class="stats_item">
+            <div>
+              <div class="stats_img">
+                <svg  width="72px" height="77px">
+                  <use href="#star"/>
+                </svg>
+              </div>
+              <p><span>4.9 out of 5 stars </span>from 25,000+ customers.</p>
+            </div>
+          </div>
+          <div class="stats_item">
+            <div>
+              <div class="stats_img">
+                <img src="https://www.squadhelp.com/resources/assets/imgs/front/img2(1).png" alt="users" width="80px" height="77px">
+              </div>
+              <p>Our branding community stands<span> 200,000+ </span>strong.</p>
+            </div>
+          </div>
+          <div class="stats_item">
+            <div>
+              <div class="stats_img">
+                <svg width="72px" height="77px">
+                  <use href="#files"/>
+                </svg>
+              </div>
+              <p><span>140+ Industries </span>supported across more than<span> 85 countries</span></br>– and counting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing">
+      <div class="container">
+        <div class="pricing_wrap">
+          <div class="pricing_left">
+            <div class="pricing_item">
+              <div class="pricing_arrow">
+                <svg width="10px" height="10px" stroke="#377dff">
+                  <use href="#arrow"/>
+                </svg>
+              </div>
+              <div>
+                <h5>Pay a Fraction of cost vs hiring an agency</h5>
+                <p>For as low as $199, our naming contests and marketplace allow you to get an amazing brand quickly and affordably.</p>
+              </div>
+            </div>
+            <div class="pricing_item">
+              <div class="pricing_arrow">
+                <svg width="10px" height="10px" stroke="#377dff">
+                  <use href="#arrow"/>
+                </svg>
+              </div>
+              <div>
+                <h5>Satisfaction Guarantee</h5>
+                <p>Of course! We have policies in place to ensure that you are satisfied with your experience. <button class="pricing_popup">Learn more</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="pricing_right">
+            <h3>Questions?</h3>
+            <p>Speak with a Squadhelp platform expert to learn more and get your questions answered.</p>
+            <button class="btn pricing_btn">Schedule Consultation</button>
+            <div class="pricing_call-us">
+              <a href="tel:(877) 355-3585">
+                <svg width="18px" height="19px">
+                  <use href="#phone_2"/>
+                </svg>(877) 355-3585</a>
+              <p>Call us for assistance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="container">
+        <div class="clients_wrap">
+          <h4>Featured In</h4>
+          <div class="clients_list">
+            <a href="#" class="clients_item">
+              <svg width="77px" height="22px">
+                <use href="#forbes"/>
+              </svg>
+            </a>
+            <a href="#" class="clients_item">
+              <svg width="70px" height="30px">
+                <use href="#tnw"/>
+              </svg>
+            </a>
+            <a href="#" class="clients_item">
+              <svg width="162px" height="25px">
+                <use href="#chicago"/>
+              </svg>
+            </a>
+            <a href="#" class="clients_item">
+              <svg width="105px" height="18px">
+                <use href="#mashable"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer_container">
+        <div class="footer_menu">
+          <h6>Services</h6>
+          <ul class="footer_menu-list">
+            <li class="footer_menu-item">
+              <a href="#">Premium Domains For Sale</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Crowdsource Naming</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Naming Agency</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Brandable Domains</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Short Domains</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">One Word Domains</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Industry Domains</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Agency Services</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Logo Contests</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Tagline Contests</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Trademark Filing Service</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Audience Test</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_menu">
+          <h6>Tools</h6>
+          <ul class="footer_menu-list">
+            <li class="footer_menu-item">
+              <a href="#">Business Name Generator</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">How to Name Your Business</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Free Trademark Checker</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Branding Blog</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Business Naming eBook</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Startup Toolkit</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_menu">
+          <h6>SquadHelp</h6>
+          <ul class="footer_menu-list">
+            <li class="footer_menu-item">
+              <a href="#">About</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Contact</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">How It Works</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Testimonials</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Our Work</a>
+            </li>
+            <li class="footer_menu-item">
+              <a href="#">Help & FAQs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_menu">
+          <div class="footer_inner">
+            <h6>Creatives</h6>
+            <ul class="footer_menu-list">
+              <li class="footer_menu-item">
+                <a href="#">Get Started</a>
+              </li>
+              <li class="footer_menu-item">
+                <a href="#">Help & FAQs</a>
+              </li>
+              <li class="footer_menu-item">
+                <a href="#">Domain Selling Info</a>
+              </li>
+              <li class="footer_menu-item">
+                <a href="#">Discussion Forum</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_inner">
+            <h6>Legal</h6>
+            <ul class="footer_menu-list">
+              <li class="footer_menu-item">
+                <a href="#">Terms of Service</a>
+              </li>
+              <li class="footer_menu-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="footer_menu-item">
+                <a href="#">Cookie Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer_categories">
+        <h6>Featured Categories</h6>
+        <div class="footer_categories-lists">
+          <ul>
+            <li>
+              <a href="#">Aerospace</a>
+            </li>
+            <li>
+              <a href="#">Agency &amp; Consulting</a>
+            </li>
+            <li>
+              <a href="#">Agriculture Company</a>
+            </li>
+            <li>
+              <a href="#">Analytics</a>
+            </li>
+            <li>
+              <a href="#">Automotive</a>
+            </li>
+            <li>
+              <a href="#">Bar &amp; Brewery</a>
+            </li>
+            <li>
+              <a href="#">Beauty &amp; Cosmetics</a>
+            </li>
+            <li>
+              <a href="#">Beer, Wine &amp; Spirits</a>
+            </li>
+            <li>
+              <a href="#">Bikes Brand</a>
+            </li>
+            <li>
+              <a href="#">Biotech</a>
+            </li>
+            <li>
+              <a href="#">Bots &amp; AI</a>
+            </li>
+            <li>
+              <a href="#">Cannabis, Marijuana &amp; CBD</a>
+            </li>
+            <li>
+              <a href="#">Catering</a>
+            </li>
+            <li>
+              <a href="#">Cleaning</a>
+            </li>
+            <li>
+              <a href="#">Co-Working Space Names</a>
+            </li>
+            <li>
+              <a href="#">Coffee &amp; Tea</a>
+            </li>
+            <li>
+              <a href="#">Community Organization</a>
+            </li>
+            <li>
+              <a href="#">Construction &amp; Architecture</a>
+            </li>
+            <li>
+              <a href="#">Crowdfunding</a>
+            </li>
+            <li>
+              <a href="#">Cryptocurrency, Blockchain</a>
+            </li>
+            <li>
+              <a href="#">Dating &amp; Relationship</a>
+            </li>
+            <li>
+              <a href="#">Daycare</a>
+            </li>
+            <li>
+              <a href="#">Dental</a>
+            </li>
+            <li>
+              <a href="#">Drone</a>
+            </li>
+            <li>
+              <a href="#">E-Commerce &amp; Retail</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">Education &amp; Training</a>
+            </li>
+            <li>
+              <a href="#">Entertainment &amp; Arts</a>
+            </li>
+            <li>
+              <a href="#">Event Planning &amp; Services</a>
+            </li>
+            <li>
+              <a href="#">Events &amp; Conferences</a>
+            </li>
+            <li>
+              <a href="#">Fashion &amp; Clothing</a>
+            </li>
+            <li>
+              <a href="#">Finance</a>
+            </li>
+            <li>
+              <a href="#">Fintech (Finance Technology)</a>
+            </li>
+            <li>
+              <a href="#">Fitness &amp; Gym</a>
+            </li>
+            <li>
+              <a href="#">Food &amp; Drink</a>
+            </li>
+            <li>
+              <a href="#">Food Delivery &amp; Meal Kits</a>
+            </li>
+            <li>
+              <a href="#">Food Truck</a>
+            </li>
+            <li>
+              <a href="#">Footwear</a>
+            </li>
+            <li>
+              <a href="#">Furniture &amp; Home Furnishings</a>
+            </li>
+            <li>
+              <a href="#">Games &amp; Recreational</a>
+            </li>
+            <li>
+              <a href="#">Gaming</a>
+            </li>
+            <li>
+              <a href="#">Green &amp; Organic</a>
+            </li>
+            <li>
+              <a href="#">Health &amp; Wellness</a>
+            </li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Home &amp; Garden</a>
+            </li>
+            <li>
+              <a href="#">Insurance</a>
+            </li>
+            <li>
+              <a href="#">Interior Design</a>
+            </li>
+            <li>
+              <a href="#">Internet of Things (IOT)</a>
+            </li>
+            <li>
+              <a href="#">Jewelry</a>
+            </li>
+            <li>
+              <a href="#">Kids &amp; Baby</a>
+            </li>
+            <li>
+              <a href="#">Landscaping</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">Legal, Attorney, Law</a>
+            </li>
+            <li>
+              <a href="#">Life Coach, Motivational</a>
+            </li>
+            <li>
+              <a href="#">Location Specific, GEO</a>
+            </li>
+            <li>
+              <a href="#">Manufacturing &amp; Industrial</a>
+            </li>
+            <li>
+              <a href="#">Marketing &amp; Advertising</a>
+            </li>
+            <li>
+              <a href="#">Medical &amp; Dental</a>
+            </li>
+            <li>
+              <a href="#">Metaverse</a>
+            </li>
+            <li>
+              <a href="#">Mobile App</a>
+            </li>
+            <li>
+              <a href="#">Mortgage</a>
+            </li>
+            <li>
+              <a href="#">Movies &amp; TV</a>
+            </li>
+            <li>
+              <a href="#">Music &amp; Audio</a>
+            </li>
+            <li>
+              <a href="#">News &amp; Media</a>
+            </li>
+            <li>
+              <a href="#">NFT</a>
+            </li>
+            <li>
+              <a href="#">Non-Profit &amp; Community</a>
+            </li>
+            <li>
+              <a href="#">Office &amp; Business Supplies</a>
+            </li>
+            <li>
+              <a href="#">Oil and Gas</a>
+            </li>
+            <li>
+              <a href="#">Outdoor &amp; Adventure</a>
+            </li>
+            <li>
+              <a href="#">Payment</a>
+            </li>
+            <li>
+              <a href="#">Payroll</a>
+            </li>
+            <li>
+              <a href="#">Pets</a>
+            </li>
+            <li>
+              <a href="#">Pharma</a>
+            </li>
+            <li>
+              <a href="#">Photography</a>
+            </li>
+            <li>
+              <a href="#">Podcast</a>
+            </li>
+            <li>
+              <a href="#">Politics, Government</a>
+            </li>
+            <li>
+              <a href="#">Professional Services</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">Property Management</a>
+            </li>
+            <li>
+              <a href="#">Real Estate</a>
+            </li>
+            <li>
+              <a href="#">Recruitment &amp; Staffing</a>
+            </li>
+            <li>
+              <a href="#">Restaurants</a>
+            </li>
+            <li>
+              <a href="#">Sales &amp; Marketing</a>
+            </li>
+            <li>
+              <a href="#">Science &amp; Engineering</a>
+            </li>
+            <li>
+              <a href="#">Security</a>
+            </li>
+            <li>
+              <a href="#">Senior Living and Care</a>
+            </li>
+            <li>
+              <a href="#">Social &amp; Networking</a>
+            </li>
+            <li>
+              <a href="#">Solar Power and Green Energy</a>
+            </li>
+            <li>
+              <a href="#">Something Else</a>
+            </li>
+            <li>
+              <a href="#">Spas &amp; Salons</a>
+            </li>
+            <li>
+              <a href="#">Sports</a>
+            </li>
+            <li>
+              <a href="#">Startup Incubator</a>
+            </li>
+            <li>
+              <a href="#">Storage</a>
+            </li>
+            <li>
+              <a href="#">Tech, Internet, Software</a>
+            </li>
+            <li>
+              <a href="#">Transportation &amp; Shipping</a>
+            </li>
+            <li>
+              <a href="#">Travel &amp; Hotel</a>
+            </li>
+            <li>
+              <a href="#">Tutoring &amp; Test Prep</a>
+            </li>
+            <li>
+              <a href="#">Venture Capital &amp; Investment</a>
+            </li>
+            <li>
+              <a href="#">Video, Books &amp; Magazines</a>
+            </li>
+            <li>
+              <a href="#">Virtual Reality (VR)</a>
+            </li>
+            <li>
+              <a href="#">Vitamins and Supplements</a>
+            </li>
+            <li>
+              <a href="#">Website &amp; Graphic Design</a>
+            </li>
+            <li>
+              <a href="#">Weddings &amp; Bridal</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_trend">
+        <div class="footer_trend-left">
+          <h6>Trending Searches </h6>
+          <p class="trend_text">Explore our unique, hand-picked brand & business names for sale along with a matching, premium domain name. Buy instantly for a fixed low price.</p>
+          <div class="trend_search">
+            <input type="text" placeholder="Search over 75,000 Names">
+            <button>
+              <svg width="24px" height="24px" stroke="#ffffff">
+                <use href="#search"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="footer_trend-right">
+          <div class="trend_item">
+            <svg width="16px" height="18px" fill="#e5e7eb">
+              <use href="#power"/>
+            </svg>
+            <a href="#">Short Names</a>
+          </div>
+          <div class="trend_item">
+            <svg width="16px" height="18px" fill="#e5e7eb">
+              <use href="#power"/>
+            </svg>
+            <a href="#">One Word</a>
+          </div>
+          <div class="trend_item">
+            <svg width="16px" height="18px" fill="#e5e7eb">
+              <use href="#power"/>
+            </svg>
+            <a href="#">4-letter</a>
+          </div>
+          <div class="trend_item">
+            <svg width="16px" height="18px" fill="#e5e7eb">
+              <use href="#power"/>
+            </svg>
+            <a href="#">5-letter</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_info">
+        <div class="footer_copyright">
+          <p>Copyright © 2022 Squadhelp Inc</p>
+        </div>
+        <div class="footer_shoper">
+          <a href="#">Squadhelp.com has a Shopper Approved rating of</br> 4.9/5 based on 2782 ratings and reviews</a>
+        </div>
+        <div class="footer_socials">
+          <a href="#">
+            <svg width="24px" height="24px">
+              <use href="#linkedin"/>
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="24px" height="24px">
+              <use href="#instagram"/>
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="24px" height="20px">
+              <use href="#twitter"/>
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="24px" height="24px">
+              <use href="#facebook"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="accessibility">
+    <div>
+      <svg width="45px" height="45px" fill="#ffffff">
+        <use href="#people-white"/>
+      </svg>
+    </div>
+  </div>
 
   <svg style="display: none">
-    <symbol id="search" class="sh-navbar--search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <symbol id="search" fill="none" width="24px" height="24px" viewBox="0 0 24 24">
       <path strokelinecap="round" strokelinejoin="round" strokewidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
     </symbol>
-    <symbol id="arrow" class="hidden fill-current sh-navbar--nav-upicon navitem-group-hover:block" width="10" height="10">
-      <g clip-path="url(#clip0)">
-        <path d="M.114 7.414a.39.39 0 00.553 0l4.057-4.048a.391.391 0 01.553 0l4.056 4.049a.39.39 0 10.552-.553L5.83 2.814a1.168 1.168 0 00-.83-.343c-.3 0-.6.114-.827.342L.115 6.862a.39.39 0 000 .552z"></path>
-      </g>
+    <symbol id="arrow" width="10" height="10">
+      <path d="M9.886 2.586a.39.39 0 00-.553 0L5.276 6.633a.391.391 0 01-.553 0L.667 2.585a.39.39 0 10-.552.553L4.17 7.186c.229.229.529.343.83.343.3 0 .6-.114.827-.342l4.057-4.049a.39.39 0 000-.552z"></path>
+    </symbol>
+    <symbol id="mashable" width="105" height="18" viewBox="0 0 105 18" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M87.0352 0H91.1116V17.6562H87.0352V0ZM15.4876 5.98079V17.6562H20.042V5.65214e-05H13.7137L10.0355 9.74228L6.32828 5.65214e-05H0V17.6562H4.55433V5.98079L9.02902 17.6562H11.0419L15.4876 5.98079ZM29.0931 16.3873V17.658H33.1695V9.66436C33.1695 5.69289 30.2841 4.55612 27.2141 4.55612C25.2556 4.55612 23.058 5.13536 21.4144 6.54004L22.9241 9.37111C23.9559 8.49862 25.2266 7.9954 26.4973 7.9954C28.1409 7.9954 29.0931 8.7629 29.0931 9.87433V11.1451C28.3256 10.1929 26.8159 9.63539 25.1216 9.63539C23.163 9.63539 20.7266 10.6708 20.7266 13.7662C20.7266 16.6262 23.163 17.9766 25.1216 17.9766C26.7616 17.9766 28.3002 17.3394 29.0931 16.3873ZM29.0931 13.2376V14.3744C28.6695 14.9862 27.7174 15.3012 26.8159 15.3012C25.7588 15.3012 24.7777 14.8269 24.7777 13.8205C24.7777 12.814 25.7588 12.3361 26.8159 12.3361C27.7174 12.3361 28.6695 12.6294 29.0931 13.2376ZM33.4531 15.9887L35.1474 13.078C36.0996 13.9252 38.1378 14.7977 39.6475 14.7977C40.8639 14.7977 41.3671 14.4537 41.3671 13.8962C41.3671 13.3317 40.4245 13.176 39.2106 12.9755C37.0148 12.6128 33.931 12.1035 33.931 8.76262C33.931 6.51079 35.8896 4.55221 39.4085 4.55221C41.5807 4.55221 43.38 5.24007 44.7557 6.24651L43.1953 9.13189C42.4278 8.38973 40.9725 7.73083 39.4375 7.73083C38.4817 7.73083 37.8482 8.1001 37.8482 8.60332C37.8482 9.0808 38.7089 9.22652 39.8436 9.41865C42.0386 9.79028 45.2589 10.3355 45.2589 13.7912C45.2589 16.2277 43.1157 17.9727 39.4628 17.9727C37.1603 17.9727 34.8035 17.2052 33.4531 15.9887ZM54.453 10.2165V17.6562H58.5295V8.5512C58.5295 6.19439 57.2044 4.55439 54.2937 4.55439C52.1505 4.55439 50.6408 5.53187 49.8733 6.43333V5.65214e-05H45.7969V17.6562H49.8733V9.39835C50.3512 8.81548 51.1441 8.15297 52.3351 8.15297C53.6312 8.15297 54.453 8.65619 54.453 10.2165ZM67.472 17.658V16.3873C66.6791 17.3394 65.1405 17.9766 63.5005 17.9766C61.5419 17.9766 59.1055 16.6262 59.1055 13.7662C59.1055 10.6708 61.5419 9.63539 63.5005 9.63539C65.1948 9.63539 66.7045 10.1929 67.472 11.1451V9.87433C67.472 8.7629 66.5198 7.9954 64.8762 7.9954C63.6055 7.9954 62.3348 8.49862 61.303 9.37111L59.7933 6.54004C61.4369 5.13536 63.6345 4.55612 65.593 4.55612C68.6631 4.55612 71.5484 5.69289 71.5484 9.66436V17.658H67.472ZM67.472 14.3744V13.2376C67.0484 12.6294 66.0963 12.3361 65.1948 12.3361C64.1377 12.3361 63.1566 12.814 63.1566 13.8205C63.1566 14.8269 64.1377 15.3012 65.1948 15.3012C66.0963 15.3012 67.0484 14.9862 67.472 14.3744ZM72.9453 0.00178363V17.658H77.0218V16.1773C78.0825 17.3937 79.3786 17.9766 80.8086 17.9766C83.9583 17.9766 86.4454 15.5944 86.4454 11.2537C86.4454 7.0686 84.0126 4.55612 80.8086 4.55612C79.4039 4.55612 78.0282 5.11002 77.0218 6.38075V0.00178363H72.9453ZM82.2893 11.2537C82.2893 13.1833 81.0729 14.3744 79.4582 14.3744C78.5857 14.3744 77.525 13.9254 77.0218 13.2376V9.32043C77.525 8.63257 78.5857 8.15469 79.4582 8.15469C81.0729 8.15469 82.2893 9.34577 82.2893 11.2537ZM98.4608 4.55221C94.464 4.55221 91.6836 7.54258 91.6836 11.2498C91.6836 15.4059 94.7029 17.9727 98.6454 17.9727C100.604 17.9727 102.722 17.4188 103.993 16.2784L102.219 13.6066C101.48 14.2944 99.9958 14.6927 99.0943 14.6927C97.2444 14.6927 96.1836 13.7369 95.894 12.6001H104.999V11.6733C104.999 7.3326 102.248 4.55221 98.4608 4.55221ZM95.8397 9.81974C95.999 8.89295 96.6868 7.83582 98.4608 7.83582C100.34 7.83582 101.002 8.91829 101.107 9.81974H95.8397Z" fill="#ABB0C1"/>
+    </symbol>
+    <symbol id="chicago" width="162" height="25" viewBox="0 0 162 25" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M97.008 5.06545C99.5143 5.06545 100.487 2.95994 100.791 0.594937L100.599 0.447257C100.116 1.44305 99.1662 1.98525 98.1409 1.98525C96.5322 1.98525 94.8726 1.51939 93.1613 1.03901C91.3399 0.527725 89.4599 0 87.5205 0C84.8011 0 82.7779 1.6498 82.7779 4.16459C82.7779 5.89246 83.7146 6.70893 84.4656 7.0486L84.8074 6.85871C84.4002 6.67517 83.761 6.32495 83.761 5.5106C83.761 4.1646 85.0922 3.44306 86.8581 3.44306C88.1914 3.44306 89.7394 3.80186 91.3581 4.17704C92.7924 4.50949 94.2822 4.8548 95.7273 4.97473V19.0382C95.0776 19.1373 94.8096 19.1668 94.2294 19.1668C92.5417 19.1668 90.9193 18.7829 89.8075 18.0128C90.7716 17.2744 92.6746 15.9791 93.8033 15.3588V5.23423C92.5353 6.01905 90.4741 7.03593 89.3581 7.49796V7.60344C90.1957 7.90935 90.318 8.97477 90.318 10.4263V17.3082L89.5501 17.7997C87.8201 16.4305 86.6872 14.5909 86.6872 11.8166C86.6872 8.48953 87.8897 6.3777 89.5923 4.82705L89.3792 4.74266C86.9403 5.60554 83.204 8.86928 83.204 13.3946C83.204 18.65 87.0269 21.9032 91.9657 21.9032C95.8729 21.9032 99.027 19.3947 100.173 17.7533L100.065 17.477C99.3308 18.0656 97.4784 18.8019 95.9615 19.0149V5.00005C96.1535 5.02115 96.7105 5.06545 97.008 5.06545ZM29.6418 17.9795L26.9265 20.7812C26.3717 20.3509 25.2578 19.5998 24.513 19.2011V9.79804C23.9244 9.5301 23.1206 8.9436 22.783 8.62292L21.821 9.62715V17.9184L23.167 18.6842V18.7517L21.1796 20.7812C20.4244 20.1399 19.1206 19.3023 18.1016 18.7749V18.7306C18.4644 18.3888 18.7218 17.7876 18.7218 16.6378V2.53215C18.7218 1.47083 18.5321 1.1477 18.3205 0.787392L18.3167 0.781075L18.4644 0.717786C18.9349 1.12496 19.2281 1.46884 19.3421 2.19037H19.3864C20.0742 1.04268 20.9286 0.289509 22.5911 0.0764281L22.6333 0.162927C22.1691 0.728332 21.821 1.34648 21.821 2.29797V9.22208L24.4708 6.42247C25.3674 7.17142 26.8843 8.34654 28.2093 9.03009V9.09128C27.8464 9.47947 27.6333 10.2242 27.6333 11.5111V17.9795L28.6375 18.623L29.4498 17.7918L29.6418 17.9795ZM33.958 2.27492C33.266 2.7707 32.5255 3.5513 32.0993 4.17578C31.6141 3.56607 30.7871 2.8361 30.1562 2.4036C30.7786 1.91626 31.7238 0.947909 32.0993 0.416258C32.4748 0.943689 33.3905 1.8382 33.958 2.27492ZM45.2558 7.17298C45.1545 8.45991 44.1693 9.75739 42.798 9.75739C41.5195 9.75739 40.7304 9.23839 40.2979 8.32699L40.127 8.43249V17.0887C40.857 17.479 41.9963 18.1646 42.6271 18.5845L43.9942 17.1752L44.2072 17.363L40.9372 20.7617C39.4878 19.7132 37.4878 18.5001 36.2578 17.9199V17.8545C36.8359 17.4959 37.049 16.9347 37.049 15.5697V9.6498C39.2916 8.77638 41.0659 7.53374 42.3275 6.42402C42.5743 6.8312 43.1418 7.34176 43.8655 7.34176C44.4667 7.34176 44.9372 7.20674 45.1714 7.04218L45.2558 7.17298ZM33.1852 20.7812L35.9194 17.9416L35.7064 17.7454L34.9152 18.5829L33.8899 17.9416V10.4816C33.8899 9.50056 34.0924 8.65246 34.5313 8.38875V8.34654C33.449 7.75793 32.1557 6.88661 31.5186 6.36129L28.8477 9.15879L29.0396 9.34866L29.8308 8.53853L30.8118 9.22208V17.0196C30.8118 17.853 30.5354 18.5154 30.1304 18.6842V18.7517C31.2042 19.3466 32.4764 20.18 33.1852 20.7812ZM12.46 19.0108C12.6393 19.0108 12.8167 19.004 12.9922 18.9908V4.19499C12.232 3.99531 11.6996 3.58336 11.1984 3.00641L11.0908 3.0275V15.3378C9.95367 15.9749 8.09713 17.2471 7.2026 17.9222C8.53384 18.842 10.4748 19.0108 12.46 19.0108ZM13.2264 4.2483V18.9694C14.7742 18.8017 16.1733 18.1391 17.4601 17.2407L17.5656 17.5593C16.1816 19.1711 13.5697 21.8125 9.53173 21.8125C4.0359 21.8125 0 18.0783 0 11.7048C0 5.85454 4.82493 2.61189 7.94944 1.40513L8.20683 1.53381C5.25954 3.48742 3.67513 5.85242 3.67513 9.97271C3.67513 13.6078 4.97895 16.1964 6.94521 17.7091L7.60766 17.2597V8.15624C7.60766 6.51276 7.31018 5.35875 6.81651 4.95579V4.82289C9.23214 3.69418 11.7322 1.9178 13.4643 0.335505C13.998 0.959985 14.6605 1.23424 15.4938 1.23424C16.401 1.23424 17.0107 0.91356 17.4158 0.616089L17.5656 0.742668C17.4854 2.60133 16.498 4.33132 14.1689 4.33132C13.8191 4.33132 13.5077 4.30298 13.2264 4.2483ZM74.1462 9.94995V18.796L73.8087 18.988C72.91 18.2833 71.9521 17.5492 71.4563 17.258V8.41195L71.7981 8.21997C72.2601 8.59339 73.4247 9.50268 74.1462 9.94995ZM77.2707 11.1061C77.2707 9.88454 77.5239 9.2875 77.9543 9.0934V9.0322C76.7792 8.41195 74.8762 7.10815 73.9142 6.4035C72.4163 7.49212 70.3023 8.81913 68.3593 9.75795V16.0407C68.3593 17.1504 68.0808 17.8551 67.6525 18.1146V18.1757C69.2264 19.0335 70.0206 19.6143 71.3507 20.587L71.6483 20.8045C73.1019 19.6462 76.0007 18.0281 77.2707 17.4711V11.1061ZM62.3752 18.116V9.86702C61.333 9.22356 60.4321 8.56532 60.0038 8.19823L59.6832 8.39233V17.1962C60.2064 17.4958 61.3182 18.2975 61.8203 18.6709L62.3752 18.116ZM66.755 19.7806C66.755 20.5463 65.754 21.3476 64.6063 22.2664C64.5049 22.3476 64.4023 22.4296 64.2992 22.5127C62.6368 23.8608 61.7781 24.5043 61.7781 24.5043C60.9532 24.038 60.4785 23.9051 59.257 23.9051C57.7148 23.9051 56.8414 24.0655 55.7527 24.5043L55.6873 24.4811C56.565 22.846 58.3076 21.4895 60.7507 21.4895C61.8414 21.4895 63.0735 21.9431 63.8731 22.4747C64.0862 22.3397 64.7697 21.8397 64.7697 21.4705C64.7697 20.9909 64.3817 20.7417 63.9178 20.4438C63.3247 20.0629 62.6077 19.6024 62.4195 18.4789L60.1114 20.8059C59.0967 20.0042 57.0397 18.692 55.9426 18.116V18.0295C56.4152 17.7278 56.6072 17.3207 56.6072 16.2764V9.75942C58.8688 8.56743 60.9406 7.37333 62.2064 6.40497C63.198 7.22987 65.1199 8.4535 66.179 9.03367V9.09487C65.6896 9.39656 65.5166 9.86702 65.5166 11.5759V16.7468C65.5166 17.654 65.8562 18.0501 66.1798 18.4275C66.474 18.7707 66.755 19.0983 66.755 19.7806ZM50.2237 12.7875V18.4964L49.5844 18.9416C48.2152 18.5154 47.3186 17.2306 47.3186 15.9753C47.3186 14.3276 48.365 13.009 50.2237 12.7875ZM50.2237 9.96891V12.5132C49.7848 12.5639 48.9241 12.7306 48.557 12.8571C47.5485 11.8445 47.3397 9.87399 47.2342 8.36765L47.576 8.15244C48.1583 8.62291 49.4621 9.53009 50.2237 9.96891ZM52.8524 20.7602L55.5887 18.0049L55.3756 17.7918L54.5845 18.604L53.3461 17.8108V11.3592C53.3461 10.144 53.4937 9.67145 54.0718 9.28537V9.22208C52.8967 8.56174 50.7828 7.18831 49.8608 6.40138L45.1603 9.30647C45.4894 10.9288 46.6878 12.2727 48.1519 12.9816V13.0048C46.4515 13.6166 44.6055 14.796 44.6055 17.0871C44.6055 18.7876 45.9093 20.2475 47.5317 20.7812C48.0199 20.4376 48.4633 20.1166 48.9142 19.7902C49.2992 19.5115 49.6897 19.2288 50.1182 18.9247H50.1393C50.8819 19.2876 52.1857 20.2053 52.8524 20.7602ZM152.444 18.0242L149.708 20.8006C149.022 20.2605 147.912 19.5453 147.294 19.1993V9.73297C146.839 9.4566 146.136 8.92073 145.841 8.66335L144.558 9.96715V17.9398C144.978 18.1212 145.583 18.4904 145.883 18.7077V18.7731L143.898 20.8006C143.174 20.1951 141.887 19.3723 140.796 18.7921V18.7288C141.246 18.4736 141.461 17.9398 141.461 16.7183V9.77517L139.988 8.60006L139.195 9.41231L139.001 9.22031L141.737 6.4207C142.216 6.93126 143.583 8.04308 144.558 8.64225V9.4777L147.463 6.4207C148.469 7.21185 150.092 8.24984 151.033 8.81524V8.88064C150.52 9.15702 150.37 9.84058 150.37 11.0579V17.9398L151.438 18.6445L152.25 17.8301L152.444 18.0242ZM137.529 20.7795L140.244 17.9609L140.074 17.79L139.306 18.5812L137.936 17.809V10.2646C137.936 9.15703 138.126 8.64858 138.601 8.42917V8.38698C137.822 7.9566 136.299 7.03041 135.542 6.4207C135.088 7.00932 134.092 7.97347 133.554 8.42917V8.49246C133.867 8.64225 134.502 8.97981 134.837 9.24142C134.835 11.463 134.837 17.5305 134.837 17.5305L133.599 18.6824C133.084 18.2795 132.466 17.8617 132.147 17.6824V8.0241C131.407 7.6781 130.276 6.87218 129.753 6.4207L127.04 9.24142L127.253 9.43339L128.086 8.57685L129.069 9.26461V16.271C129.069 17.617 128.936 18.1845 128.365 18.4947V18.5601C129.474 19.1107 130.521 19.7753 131.761 20.8006L134.858 17.9778V18.963C135.578 19.3639 136.799 20.1824 137.529 20.7795ZM114.055 2.29625C113.424 2.73507 112.576 3.67179 112.194 4.19922C111.892 3.82791 111.105 2.99668 110.293 2.38275C110.835 1.94181 111.772 0.977657 112.194 0.355288C112.624 0.901707 113.54 1.85953 114.055 2.29625ZM113.326 20.8045L116.063 17.9648L115.871 17.7707L115.056 18.6061L113.989 17.9648V10.2305C113.989 9.09339 114.191 8.67356 114.63 8.41195V8.36976C113.852 7.96891 112.366 7.10392 111.617 6.3824L108.944 9.16091L109.138 9.35078L109.909 8.56385L110.913 9.26849V16.9162C110.913 17.8129 110.719 18.4099 110.248 18.7116V18.777C111.141 19.2412 112.51 20.1505 113.326 20.8045ZM109.127 7.27324C109.03 8.38507 108.037 9.81966 106.798 9.81966C105.893 9.81966 105.197 9.4125 104.726 8.74793L104.406 9.07072V17.383C105.159 17.7396 106.144 18.3303 106.562 18.6024L107.353 17.7902L107.568 17.978L104.792 20.8008C103.503 19.8261 101.752 18.7185 100.709 18.1953V18.1721C101.165 18.0096 101.351 17.6362 101.351 16.8957V9.75427L99.9816 8.56016L99.2136 9.3914L99.0195 9.1973L101.648 6.4209C102.433 7.28588 103.75 8.28801 104.363 8.72894L106.543 6.44411C106.952 6.94833 107.399 7.38083 108.167 7.38083C108.465 7.38083 108.785 7.29644 109.022 7.19096L109.127 7.27324ZM159.135 11.9797C158.696 11.3573 157.312 9.29614 156.7 8.32777L156.487 8.49656V13.7519L159.135 11.9797ZM162 10.505C160.219 11.5957 158.101 12.9966 156.487 14.1591V17.176C157.2 17.4945 158.426 18.2519 158.987 18.6253L160.439 17.1296L160.631 17.3026L157.236 20.8047C156.181 20.0431 154.118 18.7287 152.66 17.9439V17.8806C153.129 17.7477 153.39 17.0663 153.39 15.5705V9.75817C155.396 8.85943 157.255 7.62314 158.751 6.40372L162 10.505ZM123.007 9.82335V18.777L122.6 18.988L120.313 17.239V9.62927L121.317 8.66723L123.007 9.82335ZM126.127 11.5132C126.127 9.99214 126.265 9.3339 126.788 9.1166V9.05331C125.769 8.4225 123.733 7.13345 122.942 6.42459L120.313 9.2242V2.40767C120.313 1.30218 120.642 0.795852 121.104 0.226226L121.081 0.0996481C119.423 0.31062 118.566 1.04691 117.878 2.19249H117.834C117.707 1.57434 117.408 1.12496 116.959 0.740989L116.828 0.806404C117.043 1.19037 117.214 1.68193 117.214 2.64185V15.4605C117.214 17.1947 117.127 17.7707 116.507 18.1146V18.1757C117.834 18.9627 119.475 20.0872 120.505 20.8045C121.872 19.5028 124.8 17.9817 126.127 17.5175V11.5132Z" fill="#ABB0C1"/>
+    </symbol>
+    <symbol id="tnw" width="70" height="30" viewBox="0 0 70 30" fill="none">
+      <rect opacity="0.7" width="70" height="29.6471" fill="url(#pattern0)"/>
       <defs>
-        <clipPath id="clip0">
-          <path transform="rotate(180 5 5)" d="M0 0h10v10H0z"></path>
-        </clipPath>
+      <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlink:href="#image0" transform="translate(-0.000534657) scale(0.00770053 0.0181818)"/>
+      </pattern>
+      <image id="image0" width="130" height="55" xlink:href="data:image/png;base64,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"/>
       </defs>
     </symbol>
-    <symbol id="help" class="sh-navbar--auth-subicon hover:text-brand-blue" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path d="M6.70911 5.90324C6.71794 5.91207 6.72571 5.92149 6.73392 5.93067C8.62011 4.44505 11.2967 4.45009 13.1777 5.94567C13.1853 5.93715 13.1925 5.92844 13.2006 5.92028L16.6263 2.49456C12.8438 -0.849159 7.12836 -0.83072 3.35156 2.54562L6.70911 5.90324Z" fill="currentColor"></path>
-      <path d="M17.5053 3.37384L14.0797 6.79956C14.0702 6.80901 14.0601 6.81745 14.0502 6.8262C15.5159 8.70501 15.5108 11.3586 14.0352 13.2322C14.0444 13.2404 14.0538 13.2481 14.0626 13.257L17.4543 16.6486C20.8306 12.8718 20.849 7.15638 17.5053 3.37384Z" fill="currentColor"></path>
-      <path d="M5.82962 13.257C5.83845 13.2481 5.84786 13.2403 5.85708 13.2322C4.37643 11.3523 4.37643 8.68718 5.85704 6.80732C5.84786 6.79915 5.83845 6.79134 5.82962 6.78251L2.47668 3.42953C-0.825431 7.20063 -0.82629 12.8514 2.47848 16.608L5.82962 13.257Z" fill="currentColor"></path>
-      <path d="M13.1832 14.1363C13.1744 14.1274 13.1666 14.118 13.1584 14.1088C11.2785 15.5894 8.61347 15.5894 6.73356 14.1088C6.7254 14.118 6.71759 14.1274 6.70876 14.1363L3.35547 17.4895C7.11191 20.8263 12.787 20.836 16.5702 17.5233L13.1832 14.1363Z" fill="currentColor"></path>
+    <symbol id="forbes" width="77" height="20" viewBox="0 0 77 20" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M43.7268 6.26934C44.7006 5.73969 45.6737 5.47467 46.9128 5.47467C49.9221 5.47467 52.2233 8.12451 52.2233 11.7452C52.2233 16.3375 49.3913 19.252 44.6999 19.252C43.0178 19.252 41.3358 18.9869 39.7424 18.6334C39.8315 16.7787 39.9209 5.47467 39.7424 3.35526C39.567 2.29517 39.3002 1.85399 38.5045 1.67743L37.885 1.58936V1.05931L43.8159 0C43.7268 0.882757 43.7268 3.44334 43.7268 6.26934ZM43.8147 18.1923C44.0795 18.2799 44.5225 18.2799 44.8768 18.2799C46.7358 18.2799 48.0639 15.5428 48.0643 12.0094C48.0643 9.18421 47.0022 6.88826 45.0538 6.88826C44.6104 6.88826 44.2569 6.97634 43.7256 7.15328C43.6377 11.7452 43.7256 16.956 43.8147 18.1923ZM0 0.353103H15.5786L15.6677 5.56353L14.7825 5.82855C13.8977 3.17871 12.6587 1.67783 10.268 1.67783H7.17036C7.08129 3.35566 6.99301 6.18126 6.99301 9.18421L9.11685 9.09535C10.445 9.09535 11.0633 8.03604 11.3298 6.53476H12.1266V12.8029H11.3298C11.0637 11.302 10.445 10.2423 9.11685 10.2423L6.99262 10.1543C6.99262 12.4498 7.0809 14.3046 7.16996 15.4532C7.34652 17.1314 7.7895 17.9261 8.93989 18.0137L10.002 18.1911V18.8973H0V18.1911L0.885161 18.0137C2.03556 17.9265 2.47774 17.1314 2.6547 15.4532C2.83204 12.7164 2.92111 6.97555 2.6547 3.79644C2.47853 2.11862 2.03516 1.41241 0.885161 1.23586L0 1.14778V0.353103ZM27.2497 12.2882C27.2497 8.31438 25.0368 5.31144 20.611 5.31144C16.1852 5.31144 13.707 8.49094 13.707 12.2882C13.707 16.2623 15.9199 19.2657 20.3453 19.2657C24.7712 19.2657 27.2497 16.0854 27.2497 12.2882ZM17.8668 12.2882C17.8668 8.84443 18.3981 6.19498 20.3453 6.19498C22.2047 6.19498 23.0891 8.93251 23.0891 12.2882C23.0891 15.7319 22.5571 18.3814 20.5227 18.3814C18.752 18.3814 17.8668 15.6438 17.8668 12.2882ZM60.1764 5.31144C55.6619 5.31144 53.3608 8.75596 53.3608 12.3766C53.3608 16.4393 56.1928 19.2653 60.1764 19.2657C62.6542 19.2657 64.6014 18.0286 65.4866 16.7924L65.1335 16.3512C64.2475 16.9697 63.5397 17.322 62.1233 17.322C58.9362 17.322 57.3428 14.9376 57.4319 11.67H65.6639C65.6639 8.04936 63.8928 5.31144 60.1764 5.31144ZM61.592 10.6099L57.4319 10.6988C57.5198 8.66709 58.3178 6.19498 59.8221 6.19459C61.3264 6.19459 61.592 8.84404 61.592 10.6099ZM72.1273 5.31144C73.7202 5.31144 75.1363 5.57646 76.1984 6.01843L76.2898 9.46217L75.6707 9.63872C74.8726 7.25429 73.8105 6.28267 72.2183 6.28267C71.1562 6.28267 70.3581 7.07774 70.3581 8.22552C70.3581 9.37409 71.2425 9.99221 73.7214 10.963C76.0226 11.847 76.9968 12.9063 76.9968 14.7611C76.9968 17.4982 74.7836 19.2653 71.3312 19.2653C69.6487 19.2653 67.7019 18.9114 66.6398 18.4702L66.5507 14.5845L67.1706 14.4072C68.1441 17.057 69.3839 18.0279 71.0652 18.0279C72.4816 18.0279 73.2785 17.0566 73.2785 15.9969C73.2785 14.9372 72.6581 14.3183 70.446 13.5244C68.319 12.8178 66.8159 11.8466 66.8159 9.55024C66.8159 7.2539 68.853 5.31144 72.1273 5.31144ZM33.1802 8.40286C34.5962 5.22336 37.2521 4.78257 38.7564 5.66493L37.34 9.28561C35.5696 8.13783 33.6224 8.66709 33.1802 9.28561C33.0911 11.4054 33.0911 14.7611 33.2681 16.4393C33.3571 17.4982 33.6228 18.0279 34.5075 18.1167L35.5696 18.2056V18.9118H27.3384V18.2056L27.9579 18.1167C28.7552 18.0279 29.1083 17.4982 29.1974 16.4393C29.2856 14.5849 29.3743 10.8754 29.1974 8.75596C29.1083 7.60779 28.7552 7.1666 27.9579 7.07774L27.3384 6.98966V6.45961L33.2681 5.31183L33.1802 8.40286Z" fill="#ABB0C1"/>
     </symbol>
-    <symbol id="email" class="sh-navbar--auth-subicon hover:text-brand-blue" viewBox="0 0 20 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0.417454 1.71703C3.16238 4.04168 7.97886 8.13145 9.39449 9.40664C9.58452 9.57875 9.78835 9.66625 9.99995 9.66625C10.2111 9.66625 10.4146 9.57957 10.6042 9.40828C12.021 8.13184 16.8375 4.04168 19.5825 1.71703C19.7534 1.57258 19.7794 1.31867 19.6411 1.14207C19.3212 0.733984 18.8444 0.5 18.3333 0.5H1.66663C1.15558 0.5 0.678665 0.733985 0.35886 1.14211C0.220501 1.31867 0.246556 1.57258 0.417454 1.71703Z" fill="currentColor"></path>
-      <path d="M19.7586 2.9768C19.6109 2.90805 19.4371 2.93204 19.3142 3.03704C17.5166 4.56086 15.148 6.57422 13.3617 8.11067C13.2677 8.19125 13.2148 8.30965 13.2169 8.43375C13.2189 8.55746 13.2763 8.67422 13.3731 8.75153C15.0329 10.0809 17.5341 11.9095 19.3403 13.2091C19.4123 13.2612 19.4978 13.2877 19.5836 13.2877C19.6487 13.2877 19.7138 13.2726 19.7737 13.2417C19.9128 13.1705 20.0003 13.0272 20.0003 12.871V3.35481C20.0003 3.19247 19.9059 3.04477 19.7586 2.9768Z" fill="currentColor"></path>
-      <path d="M0.66 13.2091C2.46664 11.9095 4.96828 10.0809 6.62762 8.75153C6.72445 8.67422 6.78184 8.55742 6.78387 8.43375C6.7859 8.30965 6.73301 8.19125 6.63902 8.11067C4.8527 6.57422 2.48371 4.56086 0.686055 3.03703C0.562344 2.93203 0.388203 2.90887 0.241719 2.97679C0.0944141 3.04476 0 3.19246 0 3.3548V12.871C0 13.0273 0.0875 13.1705 0.226641 13.2417C0.286445 13.2727 0.351562 13.2877 0.41668 13.2877C0.502539 13.2877 0.587969 13.2613 0.66 13.2091Z" fill="currentColor"></path>
-      <path d="M19.4894 14.3428C17.745 13.0948 14.5317 10.7682 12.6136 9.21133C12.4573 9.08399 12.2311 9.08805 12.0773 9.2207C11.7009 9.54906 11.386 9.82578 11.1626 10.0268C10.4765 10.6461 9.52435 10.6461 8.8367 10.0259C8.61412 9.82536 8.2992 9.54781 7.92279 9.22067C7.77022 9.08719 7.54357 9.08313 7.38689 9.21129C5.47525 10.7628 2.2583 13.0923 0.511074 14.3427C0.413808 14.4127 0.351152 14.5206 0.338964 14.6398C0.327168 14.759 0.366621 14.8774 0.448418 14.9653C0.763808 15.3051 1.20814 15.5 1.66674 15.5H18.3334C18.792 15.5 19.2359 15.3051 19.5521 14.9653C19.6335 14.8778 19.6733 14.7594 19.6615 14.6402C19.6493 14.521 19.5867 14.4128 19.4894 14.3428Z" fill="currentColor"></path>
+    <symbol id="help" viewBox="0 0 20 20">
+      <path d="M6.70911 5.90324C6.71794 5.91207 6.72571 5.92149 6.73392 5.93067C8.62011 4.44505 11.2967 4.45009 13.1777 5.94567C13.1853 5.93715 13.1925 5.92844 13.2006 5.92028L16.6263 2.49456C12.8438 -0.849159 7.12836 -0.83072 3.35156 2.54562L6.70911 5.90324Z"></path>
+      <path d="M17.5053 3.37384L14.0797 6.79956C14.0702 6.80901 14.0601 6.81745 14.0502 6.8262C15.5159 8.70501 15.5108 11.3586 14.0352 13.2322C14.0444 13.2404 14.0538 13.2481 14.0626 13.257L17.4543 16.6486C20.8306 12.8718 20.849 7.15638 17.5053 3.37384Z"></path>
+      <path d="M5.82962 13.257C5.83845 13.2481 5.84786 13.2403 5.85708 13.2322C4.37643 11.3523 4.37643 8.68718 5.85704 6.80732C5.84786 6.79915 5.83845 6.79134 5.82962 6.78251L2.47668 3.42953C-0.825431 7.20063 -0.82629 12.8514 2.47848 16.608L5.82962 13.257Z"></path>
+      <path d="M13.1832 14.1363C13.1744 14.1274 13.1666 14.118 13.1584 14.1088C11.2785 15.5894 8.61347 15.5894 6.73356 14.1088C6.7254 14.118 6.71759 14.1274 6.70876 14.1363L3.35547 17.4895C7.11191 20.8263 12.787 20.836 16.5702 17.5233L13.1832 14.1363Z"></path>
     </symbol>
-    <symbol id="chat" class="sh-navbar--auth-subicon hover:text-brand-blue" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path d="M17.0676 2.92971C13.1616 -0.976298 6.8395 -0.976885 2.93294 2.92971C-0.208072 6.07068 -0.801614 10.7411 1.05536 14.4605L0.0258584 18.9889C-0.107956 19.5775 0.41956 20.1052 1.00837 19.9714L5.53682 18.9419C12.1211 22.2293 19.9951 17.47 19.9951 9.99706C19.9951 7.32743 18.9554 4.81753 17.0676 2.92971ZM12.0852 12.4859H5.83036C5.37697 12.4859 5.00942 12.1184 5.00942 11.665C5.00942 11.2116 5.37697 10.844 5.83036 10.844H12.0852C12.5386 10.844 12.9061 11.2116 12.9061 11.665C12.9061 12.1184 12.5386 12.4859 12.0852 12.4859ZM14.1701 9.15005H5.83036C5.37697 9.15005 5.00942 8.7825 5.00942 8.3291C5.00942 7.87571 5.37697 7.50816 5.83036 7.50816H14.1701C14.6235 7.50816 14.9911 7.87571 14.9911 8.3291C14.9911 8.7825 14.6235 9.15005 14.1701 9.15005Z" fill="currentColor"></path>
+    <symbol id="email" viewBox="0 0 20 16">
+      <path d="M0.417454 1.71703C3.16238 4.04168 7.97886 8.13145 9.39449 9.40664C9.58452 9.57875 9.78835 9.66625 9.99995 9.66625C10.2111 9.66625 10.4146 9.57957 10.6042 9.40828C12.021 8.13184 16.8375 4.04168 19.5825 1.71703C19.7534 1.57258 19.7794 1.31867 19.6411 1.14207C19.3212 0.733984 18.8444 0.5 18.3333 0.5H1.66663C1.15558 0.5 0.678665 0.733985 0.35886 1.14211C0.220501 1.31867 0.246556 1.57258 0.417454 1.71703Z"></path>
+      <path d="M19.7586 2.9768C19.6109 2.90805 19.4371 2.93204 19.3142 3.03704C17.5166 4.56086 15.148 6.57422 13.3617 8.11067C13.2677 8.19125 13.2148 8.30965 13.2169 8.43375C13.2189 8.55746 13.2763 8.67422 13.3731 8.75153C15.0329 10.0809 17.5341 11.9095 19.3403 13.2091C19.4123 13.2612 19.4978 13.2877 19.5836 13.2877C19.6487 13.2877 19.7138 13.2726 19.7737 13.2417C19.9128 13.1705 20.0003 13.0272 20.0003 12.871V3.35481C20.0003 3.19247 19.9059 3.04477 19.7586 2.9768Z"></path>
+      <path d="M0.66 13.2091C2.46664 11.9095 4.96828 10.0809 6.62762 8.75153C6.72445 8.67422 6.78184 8.55742 6.78387 8.43375C6.7859 8.30965 6.73301 8.19125 6.63902 8.11067C4.8527 6.57422 2.48371 4.56086 0.686055 3.03703C0.562344 2.93203 0.388203 2.90887 0.241719 2.97679C0.0944141 3.04476 0 3.19246 0 3.3548V12.871C0 13.0273 0.0875 13.1705 0.226641 13.2417C0.286445 13.2727 0.351562 13.2877 0.41668 13.2877C0.502539 13.2877 0.587969 13.2613 0.66 13.2091Z"></path>
+      <path d="M19.4894 14.3428C17.745 13.0948 14.5317 10.7682 12.6136 9.21133C12.4573 9.08399 12.2311 9.08805 12.0773 9.2207C11.7009 9.54906 11.386 9.82578 11.1626 10.0268C10.4765 10.6461 9.52435 10.6461 8.8367 10.0259C8.61412 9.82536 8.2992 9.54781 7.92279 9.22067C7.77022 9.08719 7.54357 9.08313 7.38689 9.21129C5.47525 10.7628 2.2583 13.0923 0.511074 14.3427C0.413808 14.4127 0.351152 14.5206 0.338964 14.6398C0.327168 14.759 0.366621 14.8774 0.448418 14.9653C0.763808 15.3051 1.20814 15.5 1.66674 15.5H18.3334C18.792 15.5 19.2359 15.3051 19.5521 14.9653C19.6335 14.8778 19.6733 14.7594 19.6615 14.6402C19.6493 14.521 19.5867 14.4128 19.4894 14.3428Z"></path>
     </symbol>
-    <symbol id="favorite" class="sh-navbar--auth-icon lg:text-brand-gray navitem-group-hover:text-brand-white" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color: rgb(204, 204, 204);">
+    <symbol id="chat" viewBox="0 0 20 20">
+      <path d="M17.0676 2.92971C13.1616 -0.976298 6.8395 -0.976885 2.93294 2.92971C-0.208072 6.07068 -0.801614 10.7411 1.05536 14.4605L0.0258584 18.9889C-0.107956 19.5775 0.41956 20.1052 1.00837 19.9714L5.53682 18.9419C12.1211 22.2293 19.9951 17.47 19.9951 9.99706C19.9951 7.32743 18.9554 4.81753 17.0676 2.92971ZM12.0852 12.4859H5.83036C5.37697 12.4859 5.00942 12.1184 5.00942 11.665C5.00942 11.2116 5.37697 10.844 5.83036 10.844H12.0852C12.5386 10.844 12.9061 11.2116 12.9061 11.665C12.9061 12.1184 12.5386 12.4859 12.0852 12.4859ZM14.1701 9.15005H5.83036C5.37697 9.15005 5.00942 8.7825 5.00942 8.3291C5.00942 7.87571 5.37697 7.50816 5.83036 7.50816H14.1701C14.6235 7.50816 14.9911 7.87571 14.9911 8.3291C14.9911 8.7825 14.6235 9.15005 14.1701 9.15005Z"></path>
+    </symbol>
+    <symbol id="favorite" viewBox="0 0 24 24">
       <path d="M11.5948 4.49911L12 5.05935L12.4051 4.49913C12.8296 3.91225 13.3075 3.41423 13.8304 3.00973C14.8616 2.21233 16.0232 1.8125 17.2956 1.8125C19.0111 1.8125 20.5819 2.49751 21.7285 3.74103C22.8632 4.97189 23.5 6.66666 23.5 8.52502C23.5 10.4113 22.8038 12.1602 21.2348 14.0533L21.2348 14.0533C19.8158 15.7656 17.7661 17.5144 15.3373 19.5842L15.3372 19.5842L15.3165 19.6019C14.4958 20.3014 13.5646 21.0951 12.5983 21.9401L12.598 21.9404C12.433 22.0848 12.2206 22.1648 12 22.1648C11.7794 22.1648 11.5671 22.0849 11.4016 21.94L11.4013 21.9397C10.4279 21.0887 9.49075 20.29 8.66603 19.587L8.66332 19.5847L8.66329 19.5847C6.2341 17.5146 4.18441 15.7657 2.76535 14.0535C1.19634 12.1602 0.5 10.4113 0.5 8.52521C0.5 6.66666 1.1368 4.97189 2.27135 3.74103C3.41786 2.49752 4.98889 1.8125 6.70441 1.8125C7.97679 1.8125 9.1384 2.21234 10.1694 3.00971L10.1694 3.00973C10.6925 3.41421 11.1706 3.91241 11.5948 4.49911Z" stroke="none"></path>
     </symbol>
-    <symbol id="phone" class="sh-navbar--auth-icon lg:text-brand-gray navitem-group-hover:text-brand-white" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="phone" viewBox="0 0 14 14">
       <path d="M12.8766 9.1894C12.0195 9.1894 11.1779 9.05534 10.3804 8.79178C9.98958 8.65849 9.50917 8.78077 9.27066 9.02573L7.6965 10.2141C5.87092 9.23956 4.7464 8.11541 3.78521 6.30354L4.93857 4.77039C5.23822 4.47114 5.3457 4.03401 5.21693 3.62385C4.95224 2.82213 4.81779 1.98093 4.81779 1.12343C4.81782 0.503964 4.31386 0 3.69443 0H1.12339C0.503964 0 0 0.503964 0 1.12339C0 8.22365 5.77638 14 12.8766 14C13.4961 14 14 13.496 14 12.8766V10.3127C14 9.69336 13.496 9.1894 12.8766 9.1894Z">
       </path>
     </symbol>
-    <symbol id="user" class="sh-navbar--auth-icon lg:text-brand-gray navitem-group-hover:text-brand-white" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="user" viewBox="0 0 20 20">
       <g clip-path="url(#clip0)">
-        <path d="M9.85746 9.63406C11.181 9.63406 12.3271 9.15936 13.2635 8.22278C14.1999 7.28635 14.6746 6.14057 14.6746 4.81688C14.6746 3.49364 14.1999 2.34771 13.2634 1.41097C12.3268 0.474699 11.1809 0 9.85746 0C8.53377 0 7.38799 0.474699 6.45156 1.41113C5.51513 2.34756 5.04028 3.49349 5.04028 4.81688C5.04028 6.14057 5.51513 7.2865 6.45172 8.22293C7.3883 9.1592 8.53423 9.63406 9.85746 9.63406Z" fill="currentColor"></path>
-        <path d="M18.2862 15.379C18.2592 14.9893 18.2046 14.5642 18.1242 14.1152C18.043 13.663 17.9385 13.2354 17.8134 12.8446C17.6841 12.4407 17.5083 12.0419 17.291 11.6597C17.0655 11.2629 16.8006 10.9175 16.5034 10.6332C16.1926 10.3358 15.812 10.0967 15.372 9.92229C14.9334 9.7488 14.4474 9.66091 13.9276 9.66091C13.7234 9.66091 13.526 9.74468 13.1446 9.99294C12.91 10.146 12.6355 10.323 12.3291 10.5188C12.0671 10.6857 11.7121 10.8421 11.2738 10.9837C10.8461 11.1221 10.4118 11.1923 9.98318 11.1923C9.55456 11.1923 9.12045 11.1221 8.69229 10.9837C8.25437 10.8422 7.89945 10.6858 7.63776 10.5189C7.33427 10.325 7.05961 10.148 6.82142 9.99279C6.44056 9.74453 6.24296 9.66076 6.0388 9.66076C5.51878 9.66076 5.03295 9.7488 4.59456 9.92245C4.15481 10.0965 3.7741 10.3357 3.46298 10.6334C3.16589 10.9178 2.90084 11.2631 2.67562 11.6597C2.45849 12.0419 2.28271 12.4406 2.15332 12.8448C2.02835 13.2356 1.92383 13.663 1.84265 14.1152C1.76224 14.5635 1.70761 14.9888 1.6806 15.3794C1.65405 15.7621 1.64062 16.1593 1.64062 16.5605C1.64062 17.6045 1.9725 18.4496 2.62695 19.073C3.27331 19.688 4.12856 20.0001 5.1686 20.0001H14.7987C15.8387 20.0001 16.6937 19.6882 17.3402 19.073C17.9948 18.4501 18.3267 17.6048 18.3267 16.5603C18.3265 16.1573 18.3129 15.7598 18.2862 15.379Z" fill="currentColor"></path>
+        <path d="M9.85746 9.63406C11.181 9.63406 12.3271 9.15936 13.2635 8.22278C14.1999 7.28635 14.6746 6.14057 14.6746 4.81688C14.6746 3.49364 14.1999 2.34771 13.2634 1.41097C12.3268 0.474699 11.1809 0 9.85746 0C8.53377 0 7.38799 0.474699 6.45156 1.41113C5.51513 2.34756 5.04028 3.49349 5.04028 4.81688C5.04028 6.14057 5.51513 7.2865 6.45172 8.22293C7.3883 9.1592 8.53423 9.63406 9.85746 9.63406Z"></path>
+        <path d="M18.2862 15.379C18.2592 14.9893 18.2046 14.5642 18.1242 14.1152C18.043 13.663 17.9385 13.2354 17.8134 12.8446C17.6841 12.4407 17.5083 12.0419 17.291 11.6597C17.0655 11.2629 16.8006 10.9175 16.5034 10.6332C16.1926 10.3358 15.812 10.0967 15.372 9.92229C14.9334 9.7488 14.4474 9.66091 13.9276 9.66091C13.7234 9.66091 13.526 9.74468 13.1446 9.99294C12.91 10.146 12.6355 10.323 12.3291 10.5188C12.0671 10.6857 11.7121 10.8421 11.2738 10.9837C10.8461 11.1221 10.4118 11.1923 9.98318 11.1923C9.55456 11.1923 9.12045 11.1221 8.69229 10.9837C8.25437 10.8422 7.89945 10.6858 7.63776 10.5189C7.33427 10.325 7.05961 10.148 6.82142 9.99279C6.44056 9.74453 6.24296 9.66076 6.0388 9.66076C5.51878 9.66076 5.03295 9.7488 4.59456 9.92245C4.15481 10.0965 3.7741 10.3357 3.46298 10.6334C3.16589 10.9178 2.90084 11.2631 2.67562 11.6597C2.45849 12.0419 2.28271 12.4406 2.15332 12.8448C2.02835 13.2356 1.92383 13.663 1.84265 14.1152C1.76224 14.5635 1.70761 14.9888 1.6806 15.3794C1.65405 15.7621 1.64062 16.1593 1.64062 16.5605C1.64062 17.6045 1.9725 18.4496 2.62695 19.073C3.27331 19.688 4.12856 20.0001 5.1686 20.0001H14.7987C15.8387 20.0001 16.6937 19.6882 17.3402 19.073C17.9948 18.4501 18.3267 17.6048 18.3267 16.5603C18.3265 16.1573 18.3129 15.7598 18.2862 15.379Z"></path>
       </g>
       <defs>
         <clipPath id="clip0">
@@ -59,7 +1033,7 @@
         </clipPath>
       </defs>
     </symbol>
-    <symbol id="app-user" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1342.8 1166.1" style="enable-background:new 0 0 1342.8 1166.1;" xml:space="preserve" class="injected-svg js-svg-injector" data-parent="#SVGeasyStart">
+    <symbol id="app-user" viewBox="0 0 1342.8 1166.1" class="injected-svg js-svg-injector" data-parent="#SVGeasyStart">
       <style type="text/css">
         .app-user-0{fill:#E7EAF3;}
         .app-user-1{fill:#FFFFFF;}
@@ -132,7 +1106,7 @@
       <circle class="app-user-6 fill-none stroke-gray-300" stroke-width="13" stroke-miterlimit="10" cx="376.5" cy="1094.7" r="22"></circle>
       <circle class="app-user-6 fill-none stroke-gray-300" stroke-width="13" stroke-miterlimit="10" cx="1301.9" cy="35.4" r="18"></circle>
     </symbol>
-    <symbol id="house-agency" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 925.4 1059.7" style="enable-background:new 0 0 925.4 1059.7;" xml:space="preserve" class="injected-svg js-svg-injector" data-parent="#SVGhouseAgency">
+    <symbol id="house-agency" viewBox="0 0 925.4 1059.7" class="injected-svg js-svg-injector" data-parent="#SVGhouseAgency">
       <style type="text/css">
         .support-man-0{fill:none;stroke:#E7EAF3;}
         .support-man-1{fill:#FFFFFF;}
@@ -172,11 +1146,11 @@
       <circle cx="710.7" cy="147.4" r="3.8"></circle>
       <path class="support-man-2 fill-none stroke-dark" stroke-width="4.4095" stroke-linecap="round" stroke-miterlimit="10" d="M722.5,198.6c-4.4,1.9-9.2,3.4-13.9,4.1"></path>
     </symbol>
-    <symbol id="people-white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 131.3" enable-background="new 0 0 100 131.3" xml:space="preserve">
+    <symbol id="people-white" viewBox="0 0 100 131.3">
       <path d="M71.6,131.3c1,0,2.1-0.3,3.1-0.8c3.9-1.8,5.5-6.2,3.6-10.1c0,0-14.3-32.7-16.9-44.7c-1-4.2-1.6-15.3-1.8-20.5c0-1.8,1-3.4,2.6-3.9l32-9.6c3.9-1,6.2-5.5,5.2-9.4c-1-3.9-5.5-6.2-9.4-5.2c0,0-29.6,9.6-40.3,9.6c-10.4,0-39.8-9.4-39.8-9.4c-3.9-1-8.3,0.8-9.6,4.7c-1.3,4.2,1,8.6,5.2,9.6l32,9.6c1.6,0.5,2.9,2.1,2.6,3.9c-0.3,5.2-0.8,16.4-1.8,20.5c-2.6,12-16.9,44.7-16.9,44.7c-1.8,3.9,0,8.3,3.6,10.1c1,0.5,2.1,0.8,3.1,0.8c2.9,0,5.7-1.6,6.8-4.4l15.3-31.2l14.6,31.4C66.1,129.7,68.7,131.3,71.6,131.3z"></path> 
       <circle style="fill: #fff;" cx="50.3" cy="14.6" r="14.6"></circle>
     </symbol>
-    <symbol id="launch_a_contest" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector" data-parent="#icon24">
+    <symbol id="launch_a_contest" viewBox="0 0 120 120" class="injected-svg js-svg-injector" data-parent="#icon24">
       <style type="text/css">
         .icon-7-0{fill:none;stroke:#FFFFFF;}
         .icon-7-1{fill:#BDC5D1;}
@@ -239,7 +1213,7 @@
         </g>
       </g>
     </symbol>
-    <symbol id="explore_names" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector" data-parent="#icon23">
+    <symbol id="explore_names" viewBox="0 0 120 120" class="injected-svg js-svg-injector" data-parent="#icon23">
       <style type="text/css">
         .icon-40-0{fill:#BDC5D1;}
         .icon-40-1{fill:#FFFFFF;stroke:#BDC5D1;}
@@ -272,7 +1246,7 @@
       <line class="icon-40-3 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="83.5" y1="115.2" x2="27.6" y2="115.2"></line>
       <polygon class="icon-40-4 fill-primary" points="41.9,99.1 38.7,114.3 72.4,114.3 69.1,99.1 "></polygon>
     </symbol>
-    <symbol id="agency_level" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector" data-parent="#icon123">
+    <symbol id="agency_level" viewBox="0 0 120 120"  class="injected-svg js-svg-injector" data-parent="#icon123">
       <style type="text/css">
         .icon-24-0{fill:none;stroke:#BDC5D1;}
         .icon-24-1{fill:#377DFF;}
@@ -320,7 +1294,7 @@
       <line class="icon-24-3 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="73.2" y1="41.7" x2="73.2" y2="39.7"></line>
       <line class="icon-24-3 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="73.2" y1="34.1" x2="73.2" y2="34.1"></line>
     </symbol>
-    <symbol id="cup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector" data-parent="#icon114">
+    <symbol id="cup" viewBox="0 0 120 120" data-parent="#icon114">
       <style type="text/css">
         .icon-27-0{fill:none;stroke:#377DFF;}
         .icon-27-1{fill:none;stroke:#BDC5D1;}
@@ -340,7 +1314,7 @@
       <path class="icon-27-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M87.5,57.4c21.7,0,31.3-16.8,31.3-37.4v-4.5c0-1.9-1.1-3.5-2.5-3.5h-22"></path>
       <path class="icon-27-0 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M33.6,32.2c0.3,6.6,1.6,13.2,4.1,19.1"></path>
     </symbol>
-    <symbol id="figure_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 384.1 283.3" style="enable-background:new 0 0 384.1 283.3;" xml:space="preserve" class="injected-svg js-svg-injector" data-parent="#SVGctaSection">
+    <symbol id="figure_1" viewBox="0 0 384.1 283.3" data-parent="#SVGctaSection">
       <style type="text/css">
         .abstract-shapes-8-0{fill:#00DFFC;}
         .abstract-shapes-8-1{fill:#FFC107;}
@@ -359,7 +1333,7 @@
         <circle class="abstract-shapes-8-2 fill-none stroke-info" stroke-width="2" stroke-miterlimit="10" clip-path="url(#abstractShapesID8_2)" cx="202.8" cy="220" r="5.4"></circle>
       </g>
     </symbol>
-    <symbol id="figure_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 385.3 279.2" style="enable-background:new 0 0 385.3 279.2;" xml:space="preserve" class="injected-svg js-svg-injector" data-parent="#SVGctaSection">
+    <symbol id="figure_2" viewBox="0 0 385.3 279.2" data-parent="#SVGctaSection">
       <style type="text/css">
         .abstract-shapes-5-0{fill:#00DFFC;}
         .abstract-shapes-5-2{fill:#FFFFFF;}
@@ -411,7 +1385,7 @@
         <path class="abstract-shapes-5-4 fill-none stroke-info" stroke-width="3" stroke-miterlimit="10" clip-path="url(#abstractShapesID5_2)" d="M340,48.2c-0.1-1.9-1-3.6-2.5-4.7c-2.3-1.7-6.1-2.2-11.4,5.5c-8.4,12.2-0.5,11.7,0.6,11.6c0.1,0,0.2,0,0.3,0   l7.3-0.5c3.5-0.2,6.2-3.3,6-6.8L340,48.2z"></path>
       </g>
     </symbol>
-    <symbol id="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38.9 41.8" style="enable-background:new 0 0 38.9 41.8;" xml:space="preserve">
+    <symbol id="star" viewBox="0 0 38.9 41.8">
       <style type="text/css">
         .stars-0{fill:#FFC107;}
       </style>
@@ -421,7 +1395,7 @@
       <path class="stars-0 fill-warning" opacity=".25" d="M5.8,32l0.9,1.7c0,0,0,0,0.1,0l1.9,0.3c0.1,0,0.1,0.1,0,0.1l-1.4,1.4c0,0,0,0,0,0.1l0.3,1.9  c0,0.1-0.1,0.1-0.1,0.1l-1.7-0.9c0,0-0.1,0-0.1,0L4,37.6c-0.1,0-0.1,0-0.1-0.1l0.3-1.9c0,0,0-0.1,0-0.1l-1.4-1.4c0,0,0-0.1,0-0.1  l1.9-0.3c0,0,0,0,0.1,0L5.6,32C5.7,31.9,5.8,31.9,5.8,32z"/>
       <path class="stars-0 fill-warning" opacity=".25" d="M34.3,34.2l1,1.9c0,0,0,0,0.1,0l2.1,0.3c0.1,0,0.1,0.1,0,0.2l-1.5,1.5c0,0,0,0,0,0.1l0.4,2.1  c0,0.1-0.1,0.1-0.1,0.1l-1.9-1c0,0-0.1,0-0.1,0l-1.9,1c-0.1,0-0.1,0-0.1-0.1l0.4-2.1c0,0,0-0.1,0-0.1l-1.5-1.5c-0.1-0.1,0-0.1,0-0.2  l2.1-0.3c0,0,0.1,0,0.1,0l1-1.9C34.1,34.1,34.2,34.1,34.3,34.2z"/>
     </symbol>
-    <symbol id="files" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38.9 41.8" style="enable-background:new 0 0 38.9 41.8;" xml:space="preserve">
+    <symbol id="files" viewBox="0 0 38.9 41.8">
       <style type="text/css">
         .sharing-files-0{fill:none;stroke:#1E2022;}
         .sharing-files-1{fill:#1E2022;}
@@ -439,26 +1413,32 @@
       <path class="sharing-files-0 fill-none stroke-dark" stroke-width="1.5" stroke-miterlimit="10" d="M36.1,25.3c1.2,0,2.1,1,2.1,2.1c0,1.2-1,2.1-2.1,2.1c-1.2,0-2.1-1-2.1-2.1  C34,26.2,35,25.3,36.1,25.3z"/>
       <path class="sharing-files-1 fill-dark" opacity=".2" d="M3.5,36.7V6.9c0-0.9-0.7-1.6-1.6-1.6H1.6C0.7,5.3,0,6,0,6.9v33.3c0,0.9,0.7,1.6,1.6,1.6h1.9h22.6  c0.9,0,1.6-0.7,1.6-1.6v-0.3c0-0.9-0.7-1.6-1.6-1.6h-21C4.2,38.3,3.5,37.6,3.5,36.7z"/>
     </symbol>
-    <symbol id="phone_2" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="phone_2" width="18" height="19" viewBox="0 0 18 19" fill="none">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9123 0.959427C17.9241 0.971207 17.9359 0.982987 17.9359 0.994767C17.9712 1.07723 17.983 1.17147 17.9948 1.26571V5.98956C17.9948 6.41365 17.6532 6.75527 17.2291 6.75527C16.805 6.75527 16.4634 6.41365 16.4634 5.98956V3.10342L12.2461 7.32072C12.0929 7.47387 11.9044 7.54455 11.7042 7.54455C11.5039 7.54455 11.3154 7.47387 11.1623 7.32072C10.8678 7.02622 10.8678 6.53145 11.1623 6.23695L15.3678 2.03142H12.4934C12.0694 2.03142 11.7277 1.6898 11.7277 1.26571C11.7277 0.841625 12.0694 0.5 12.4934 0.5H17.2173C17.2526 0.5 17.288 0.51178 17.3115 0.52356C17.3822 0.52356 17.4529 0.535341 17.5118 0.558901C17.5943 0.594241 17.6649 0.653142 17.7356 0.712043C17.7406 0.712043 17.7435 0.712043 17.7461 0.712947C17.7495 0.71417 17.7524 0.717049 17.7592 0.723823C17.7651 0.729713 17.768 0.735603 17.771 0.741492C17.7739 0.747383 17.7769 0.753273 17.7827 0.759164C17.8299 0.818065 17.877 0.888746 17.9123 0.959427ZM13.1348 10.9448C13.7945 11.1922 14.4896 11.3571 15.1846 11.4513C15.7618 11.5338 16.2802 11.8165 16.6571 12.2642C17.0223 12.7 17.2226 13.2537 17.2108 13.8192V16.1752C17.2108 16.505 17.1401 16.8231 17.0105 17.1176C16.8692 17.4239 16.6807 17.6831 16.4451 17.9069C16.1977 18.1307 15.915 18.2956 15.6087 18.4017C15.3613 18.4723 15.1139 18.5195 14.8548 18.5195C14.7841 18.5195 14.7134 18.5195 14.6427 18.5077C12.11 18.2249 9.63614 17.3532 7.50392 15.9632C5.52486 14.7027 3.80495 12.9945 2.54447 11.0037C1.15441 8.87149 0.282678 6.38587 0.0117336 3.85313C-0.0236069 3.5115 0.0235138 3.18166 0.117755 2.87538C0.223777 2.56909 0.388699 2.28637 0.612523 2.05076C0.836346 1.80338 1.10729 1.6149 1.40179 1.48531C1.6963 1.35573 2.01436 1.28505 2.34421 1.28505H4.70024C5.26569 1.27327 5.81936 1.47353 6.24345 1.8505C6.67931 2.21569 6.96204 2.73401 7.03272 3.29946C7.12696 4.00627 7.30366 4.68952 7.55105 5.36099C7.70419 5.7733 7.73953 6.23273 7.64529 6.66859C7.55105 7.10446 7.339 7.50498 7.02094 7.82305L6.44371 8.40028C7.37434 9.86102 8.61126 11.1097 10.0838 12.0404L10.661 11.4631C10.9791 11.1568 11.3796 10.933 11.8272 10.8506C12.2513 10.7563 12.7108 10.7799 13.1348 10.9448ZM15.6676 16.1752V13.8074V13.7956C15.6794 13.5953 15.6087 13.4069 15.4791 13.2537C15.3495 13.1006 15.1728 12.9945 14.9726 12.971C14.1597 12.865 13.3587 12.6647 12.593 12.382C12.4516 12.3231 12.2985 12.3113 12.1453 12.3466C11.9922 12.3702 11.8508 12.4527 11.7448 12.5587L10.7435 13.56C10.4961 13.7956 10.1191 13.8545 9.82462 13.6778C7.72775 12.488 5.99606 10.7445 4.80626 8.65944C4.64134 8.36494 4.68846 7.98797 4.93585 7.74059L5.93716 6.73927C6.04318 6.63325 6.11386 6.49189 6.1492 6.33875C6.18455 6.18561 6.17277 6.03246 6.11386 5.8911C5.83114 5.12539 5.63088 4.32434 5.52486 3.5115C5.5013 3.32302 5.40705 3.14632 5.25391 3.01674C5.10077 2.88716 4.92407 2.81647 4.7238 2.81647H4.71202H2.34421C2.22641 2.81647 2.12038 2.84003 2.00258 2.88716C1.89656 2.93428 1.8141 3.00496 1.73164 3.08742C1.66096 3.16988 1.60206 3.26412 1.56672 3.37014C1.53138 3.47616 1.5196 3.58219 1.53138 3.69999C1.77876 5.98534 2.56803 8.23536 3.81673 10.1791C4.97119 11.9815 6.51439 13.5364 8.31676 14.6791C10.2487 15.9396 12.4869 16.7406 14.7841 16.988C14.8783 16.9998 14.9961 16.988 15.1021 16.9527C15.2199 16.9056 15.3142 16.8584 15.3966 16.776C15.4791 16.7053 15.5498 16.6111 15.5969 16.505C15.644 16.399 15.6676 16.293 15.6676 16.1752Z" fill="white"/>
     </symbol>
-    <symbol id="power" class="w-4 h-5 sh-footer--power-icon" viewBox="0 0 16 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0.638561 17.1763C1.01663 17.6366 1.69945 17.6901 2.1596 17.3122L11.343 9.76043L8.09228 8.8894L12.8506 4.67007L14.3768 6.23776L15.5419 0.668153L9.94505 1.71596L11.3407 3.12636L3.6682 9.93647L6.73144 10.7573L0.79109 15.6457C0.330826 16.0236 0.260593 16.7161 0.638561 17.1763Z" fill="currentColor"></path>
+    <symbol id="power" width="16px" height="18px" viewBox="0 0 16 18">
+      <path d="M0.638561 17.1763C1.01663 17.6366 1.69945 17.6901 2.1596 17.3122L11.343 9.76043L8.09228 8.8894L12.8506 4.67007L14.3768 6.23776L15.5419 0.668153L9.94505 1.71596L11.3407 3.12636L3.6682 9.93647L6.73144 10.7573L0.79109 15.6457C0.330826 16.0236 0.260593 16.7161 0.638561 17.1763Z"></path>
     </symbol>
-    <symbol id="linkedin" class="sh-footer--social-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="linkedin" viewBox="0 0 24 24" fill="none">
       <path d="M23.9938 24V23.999H23.9998V15.197C23.9998 10.891 23.0728 7.57397 18.0388 7.57397C15.6188 7.57397 13.9948 8.90198 13.3318 10.161H13.2618V7.97597H8.48877V23.999H13.4588V16.065C13.4588 13.976 13.8548 11.956 16.4418 11.956C18.9908 11.956 19.0288 14.34 19.0288 16.199V24H23.9938Z" fill="#0077B5"></path>
       <path d="M0.395996 7.97705H5.372V24H0.395996V7.97705Z" fill="#0077B5"></path>
       <path d="M2.882 0C1.291 0 0 1.291 0 2.882C0 4.473 1.291 5.791 2.882 5.791C4.473 5.791 5.764 4.473 5.764 2.882C5.763 1.291 4.472 0 2.882 0V0Z" fill="#0077B5"></path>
     </symbol>
-    <symbol id="instagram" class="sh-footer--social-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M23.9938 24V23.999H23.9998V15.197C23.9998 10.891 23.0728 7.57397 18.0388 7.57397C15.6188 7.57397 13.9948 8.90198 13.3318 10.161H13.2618V7.97597H8.48877V23.999H13.4588V16.065C13.4588 13.976 13.8548 11.956 16.4418 11.956C18.9908 11.956 19.0288 14.34 19.0288 16.199V24H23.9938Z" fill="#0077B5"></path>
-      <path d="M0.395996 7.97705H5.372V24H0.395996V7.97705Z" fill="#0077B5"></path>
-      <path d="M2.882 0C1.291 0 0 1.291 0 2.882C0 4.473 1.291 5.791 2.882 5.791C4.473 5.791 5.764 4.473 5.764 2.882C5.763 1.291 4.472 0 2.882 0V0Z" fill="#0077B5"></path>
+    <symbol id="instagram" viewBox="0 0 24 24" fill="none">
+      <path d="M1.49971 1.63305C-0.386289 3.59205 -0.000289023 5.67305 -0.000289023 11.995C-0.000289023 17.245 -0.916289 22.508 3.87771 23.747C5.37471 24.132 18.6387 24.132 20.1337 23.745C22.1297 23.23 23.7537 21.611 23.9757 18.788C24.0067 18.394 24.0067 5.60305 23.9747 5.20105C23.7387 2.19405 21.8877 0.461046 19.4487 0.110046C18.8897 0.0290464 18.7777 0.00504639 15.9097 4.63948e-05C5.73671 0.00504639 3.50671 -0.447954 1.49971 1.63305Z" fill="url(#paint0_linear)"></path>
+      <path d="M11.9978 3.13892C8.36681 3.13892 4.91881 2.81592 3.60181 6.19592C3.05781 7.59192 3.13681 9.40492 3.13681 12.0009C3.13681 14.2789 3.06381 16.4199 3.60181 17.8049C4.91581 21.1869 8.39181 20.8629 11.9958 20.8629C15.4728 20.8629 19.0578 21.2249 20.3908 17.8049C20.9358 16.3949 20.8558 14.6089 20.8558 12.0009C20.8558 8.53892 21.0468 6.30392 19.3678 4.62592C17.6678 2.92592 15.3688 3.13892 11.9938 3.13892H11.9978ZM11.2038 4.73592C18.7778 4.72392 19.7418 3.88192 19.2098 15.5789C19.0208 19.7159 15.8708 19.2619 11.9988 19.2619C4.93881 19.2619 4.73581 19.0599 4.73581 11.9969C4.73581 4.85192 5.29581 4.73992 11.2038 4.73392V4.73592ZM16.7278 6.20692C16.1408 6.20692 15.6648 6.68292 15.6648 7.26992C15.6648 7.85692 16.1408 8.33292 16.7278 8.33292C17.3148 8.33292 17.7908 7.85692 17.7908 7.26992C17.7908 6.68292 17.3148 6.20692 16.7278 6.20692ZM11.9978 7.44992C9.48481 7.44992 7.44781 9.48792 7.44781 12.0009C7.44781 14.5139 9.48481 16.5509 11.9978 16.5509C14.5108 16.5509 16.5468 14.5139 16.5468 12.0009C16.5468 9.48792 14.5108 7.44992 11.9978 7.44992ZM11.9978 9.04692C15.9028 9.04692 15.9078 14.9549 11.9978 14.9549C8.09381 14.9549 8.08781 9.04692 11.9978 9.04692Z" fill="white"></path>
+      <defs>
+        <linearGradient id="paint0_linear" x1="1.54573" y1="22.4671" x2="23.8512" y2="3.16202" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FFDD55"></stop>
+          <stop offset="0.5" stop-color="#FF543E"></stop>
+          <stop offset="1" stop-color="#C837AB"></stop>
+        </linearGradient>
+      </defs>
     </symbol>
-    <symbol id="twitter" class="sh-footer--twitter-icon" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="twitter" viewBox="0 0 24 20" fill="none">
       <path d="M21.552 5.749C21.552 5.532 21.544 5.321 21.534 5.113C22.51 4.42 23.331 3.555 24 2.559V2.558C23.107 2.949 22.157 3.209 21.165 3.335C22.185 2.726 22.964 1.769 23.33 0.616C22.379 1.183 21.329 1.583 20.21 1.807C19.307 0.845 18.02 0.25 16.616 0.25C13.892 0.25 11.699 2.461 11.699 5.171C11.699 5.561 11.732 5.936 11.813 6.293C7.723 6.093 4.103 4.133 1.671 1.146C1.247 1.883 0.997 2.726 0.997 3.633C0.997 5.337 1.874 6.847 3.183 7.722C2.392 7.707 1.617 7.477 0.96 7.116V7.17C0.96 9.561 2.665 11.547 4.902 12.005C4.15 12.211 3.224 12.203 2.681 12.083C3.318 14.031 5.128 15.464 7.278 15.511C5.604 16.82 3.478 17.609 1.177 17.609C0.774 17.609 0.387 17.591 0 17.542C2.18 18.947 4.762 19.75 7.548 19.75C16.602 19.75 21.552 12.25 21.552 5.749Z" fill="#55ACEE"></path>
     </symbol>
-    <symbol id="facebook" class="sh-footer--social-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="facebook" viewBox="0 0 24 24" fill="none">
       <path d="M21 0H3C1.345 0 0 1.345 0 3V21C0 22.654 1.345 24 3 24H21C22.654 24 24 22.654 24 21V3C24 1.345 22.654 0 21 0Z" fill="#3B5999"></path>
       <path d="M16.5 12V9C16.5 8.172 17.172 8.25 18 8.25H19.5V4.5H16.5C14.014 4.5 12 6.514 12 9V12H9V15.75H12V24H16.5V15.75H18.75L20.25 12H16.5Z" fill="white"></path>
     </symbol>
